@@ -1,0 +1,11 @@
+Pergunta:
+
+Mateus Buogo destacou a importância de pensar em segurança no desenvolvimento das aplicações. Cite pelo menos duas tecnologias que podem ser utilizadas para proteger sistemas de backend contra ataques cibernéticos.
+
+Resposta:
+
+Firewall de Aplicações Web (WAF)
+Monitora, filtra e/ou bloqueia tráfego HTTP entre a aplicação web e a internet.
+
+Autenticação Multifator, camada extra de segurança que exige 2 ou mais formas de verificação para que um usuário tenha acesso ao sistema.
+Além de uma senha, pode exigir outro método de autenticação. Isso reduz a possibilidade de acessos não autorizados, mesmo que as credenciais vazem.
