@@ -5,6 +5,11 @@
 - Luiz Felipe Silveira Zomer
 - Willian Minatto
 
+### Casos de Uso
+ - Cadastrar usuário
+ - Listar notas do usuário
+ - Manipular notas
+
 ### Recursos
  - `Notas`
  - `Usuários`
@@ -14,7 +19,7 @@
 | Descrição | URI | Método | Body | Response | Erro |
 | --- | --- | --- | --- | --- | --- |
 Buscar usuário | /usuario/{id} | GET | Vazio | 200 | 404 - Usuário não encontrado |
-Logar | /usuario/login | PUT | Vazio | 200 | 404 - Login inválido |
+Logar | /usuario/login | PUT | `{"email": "string", "senha": "string"}` | 200 | 404 - Login inválido |
 Cadastrar usuário | /usuario/cadastrar | POST | `{"nome": "string", "email": "string", "senha": "string"}` | 201 | 404 - Dados inválidos |
 Alterar usuário | /usuario/alterar/{id} | PUT | `{"nome": "string", "email": "string", "senha": "string"}` | 200 | 404 - Dados inválidos |
 Inativar usuário  | /usuario/inativar/{id} | PUT | Vazio | 200 | 404 - Usuário não encontrado |
